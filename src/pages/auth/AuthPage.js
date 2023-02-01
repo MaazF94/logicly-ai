@@ -1,4 +1,4 @@
-import "./App.css";
+import "../auth/AuthPage.css";
 
 const AuthScreen = () => {
 
