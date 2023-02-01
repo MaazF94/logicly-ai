@@ -1,8 +1,75 @@
-.App {
+.Full-page-container {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.Left-side-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: -1vh;
+  margin-bottom: -3vh;
+}
+
+.Left-side-container-img {
+  background: url(./assets/png/signup-left-background.png) no-repeat 50%;
+  background-position: 50%!important;
+  background-repeat: no-repeat!important;
+  background-size: cover!important;
+  color: #fff;
+  flex-basis: 50%;
+  flex-grow: 1;
+  min-height: 100vh;
+  place-content: center;
+}
+
+.Left-side-container-content {
+  width: auto;
   text-align: center;
 }
 
-.App-logo {
+.Left-side-container-text {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.78px;
+  font-family: 'Inter';
+  color: #FFFFFF
+}
+
+.Left-side-container-btn-signin {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 8px;
+  width: 389px;
+  height: 43px;
+  background: #FFFFFF;
+  border: 1px solid #4D5761;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.Right-side-container {
+  padding: 0 120px;
+  align-items: center;
+  display: flex;
+  flex-basis: 50%;
+  flex-direction: column;
+  flex-grow: 1;
+  min-height: 100vh;
+  padding: 0 100px;
+  place-content: center;
+}
+
+.Right-side-container-form-container {
+  width: 550px;
+}
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +102,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
