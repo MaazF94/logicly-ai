@@ -1,19 +1,64 @@
-import './App.css';
+import "./App.css";
 
 const AuthScreen = () => {
-
+  
   return (
     <div className="Full-page-container">
       <div className="Left-side-container Left-side-container-img">
-        <div className='Left-side-container-content'>
+        <div className="Left-side-container-content">
           <div>
-          <p class="Left-side-container-text">Already have a Logicly account?</p>
+            <p className="Left-side-container-text">
+              Already have a Logicly account?
+            </p>
           </div>
-          <button class="Left-side-container-btn-signin">Sign in</button>
+          <button className="Left-side-container-btn-signin">Sign in</button>
         </div>
       </div>
       <div className="Right-side-container">
-        <div className='Right-side-container-form-container'></div>
+        <div className="Right-side-container-form-container">
+          <div className="Right-side-container-form-title">Sign Up</div>
+          <form action="#" className="Right-side-container-form">
+            <div className="Form-input">
+              <label className="Label">Full name</label>
+              <i className="Label-img fa-regular fa-user"></i>
+              <input
+                className="Text-input"
+                placeholder="Ex: John Smith"
+              ></input>
+            </div>
+            <div className="Form-input">
+              <label className="Label">Email</label>
+              <i className="Label-img fa-solid fa-envelope"></i>
+              <input
+                className="Text-input"
+                placeholder="youremail@something.com"
+              ></input>
+            </div>
+            <div className="Form-input">
+              <label className="Label">Password</label>
+              <i className="Label-img-no-pro fa-solid fa-lock"></i>
+              <i className="Label-img-show-password fa-solid fa-eye"></i>
+              <input
+                className="Text-input"
+                placeholder="Create a password"
+                type="password"
+              ></input>
+            </div>
+            <div className="Form-input">
+              <label className="Label">Retype password</label>
+              <i className="Label-img-no-pro fa-solid fa-lock"></i>
+              <i className="Label-img-show-password fa-solid fa-eye"></i>
+              <input
+                className="Text-input"
+                placeholder="Retype password"
+                type="password"
+              ></input>
+            </div>
+            <div className="Form-input">
+              <button className="Sign-up-btn">Sign up</button>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
   );

@@ -69,6 +69,101 @@
   width: 550px;
 }
 
+.Right-side-container-form-title {
+  color: #111927;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 29.05px;
+  margin-top: 72px;
+  text-align: left;
+  font-style: normal;
+}
+
+.Right-side-container-form {
+  margin-top: 20px;
+  max-width: 550px;
+  width: 100%;
+}
+
+.Form-input {
+  position: relative;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.Label {
+  background-color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  left: 20px;
+  padding: 0 2px;
+  position: absolute;
+  top: -8px;
+}
+
+.Label-img {
+  color: #6c737f;
+  font-size: 16px;
+  font-weight: 400!important;
+  position: absolute;
+  height: 16px;
+  left: 16px;
+  top: 16px;
+  width: 16px;
+}
+
+.Label-img-show-password {
+  color: #6c737f;
+  font-size: 16px;
+  position: absolute;
+  height: 16px;
+  right: 16px;
+  top: 16px;
+  width: 16px;
+  cursor: pointer;
+}
+
+.Label-img-no-pro {
+  color: #6c737f;
+  font-size: 16px;
+  font-weight: 600!important;
+  position: absolute;
+  height: 16px;
+  left: 16px;
+  top: 16px;
+  width: 16px;
+}
+
+.Text-input {
+  padding-left: 44px;
+  border: 1px solid #d2d6db;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 400;
+  height: 48px;
+  line-height: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.Sign-up-btn {
+  background: #0bb68c;
+    border-radius: 8px;
+    border-style: none;
+    color: #fff;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    height: 43px;
+    line-height: 26px;
+    text-align: center;
+    width: 550px;
+    cursor: pointer;
+}
+
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;
