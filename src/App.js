@@ -1,23 +1,23 @@
 import "./App.css";
 
 const AuthScreen = () => {
-  
+
   return (
     <div className="Full-page-container">
-      <div className="Left-side-container Left-side-container-img">
+      <div className="Left-side-container Background-img">
         <div className="Left-side-container-content">
           <div>
             <p className="Left-side-container-text">
               Already have a Logicly account?
             </p>
           </div>
-          <button className="Left-side-container-btn-signin">Sign in</button>
+          <button className="Btn-signin">Sign in</button>
         </div>
       </div>
       <div className="Right-side-container">
-        <div className="Right-side-container-form-container">
-          <div className="Right-side-container-form-title">Sign Up</div>
-          <form action="#" className="Right-side-container-form">
+        <div className="Form-container">
+          <div className="Form-title">Sign Up</div>
+          <form action="#" className="Form">
             <div className="Form-input">
               <label className="Label">Full name</label>
               <i className="Label-img fa-regular fa-user"></i>
